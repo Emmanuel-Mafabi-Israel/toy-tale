@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // function for gettclsing data from the storage - always update
+  // function for getting data from the storage - always update
   (function(){
     fetch('http://localhost:3000/toys').then(function(SERVER_RESPONSE) {
       return SERVER_RESPONSE.json();
